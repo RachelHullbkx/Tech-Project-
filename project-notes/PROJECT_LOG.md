@@ -41,8 +41,52 @@ Session 2 – November 25, 2026 (Evening)
 Goal: Create the project-notes folder and begin working on the written portion of my assignment.
 
 What worked: I used Copilot to create the BUSINESS_CASE.md and PROJECT_LOG.md files. I began filling in my project log and documenting my progress.
-# Things that broke
+# Key Prompet used: 
+Create a folder called project-notes in my repository. Inside this folder, create two Markdown files:
 
+BUSINESS_CASE.md
+
+PROJECT_LOG.md
+
+In BUSINESS_CASE.md, include the following section headings: The idea, Where IT creates value, Network effects, Can it be copied?, Cloud and operations, Risks and ethics, and AI use.
+
+In PROJECT_LOG.md, include headings for my name, startup name, live website link, work sessions, things that broke, what a real version would need, and reflection.
+
+Leave the sections blank for me to complete myself. Do not change any of my existing website files.
+
+**What went wrong and how I fixed it:** I did not experience any major issues during this session.
+
+**Committed:** Yes, my progress was saved in Git history.
+### Session 3 – November 26, 2026
+
+**Goal:** Complete the business case for SportSwap.
+
+**What worked:** I used ChatGPT to help me understand course concepts, brainstorm ideas and organize my writing. I completed the remaining sections of my business case, including competitive advantages, cloud computing, and risks and ethics.
+
+**What went wrong and how I fixed it:** I found applying the VRIN framework to my business difficult. I worked through each competitive advantage individually to better understand the four criteria.
+
+**Committed:** Completed SportSwap business case.
+### Session 4 – November 26, 2026 (Evening)
+
+**Goal:** Finish my project log and recover my missing documents.
+
+**Key prompt used:** "my god its not there"
+
+**What worked:** With the help of ChatGPT, I learned how to use Git history and terminal commands to recover my previously saved documents.
+
+**What went wrong and how I fixed it:** When I reopened my project, both my business case and project log appeared blank. I was worried that I had lost all my work. I used the Timeline feature to locate previous versions and used Git restore commands to recover both documents successfully.
+## Things that broke 
+| Date | Problem | What I tried | How I fixed it |
+|---|---|---|---|
+| November 25 | Difficulty navigating GitHub and saving my work | Asked ChatGPT for guidance | Learned how to commit and sync changes |
+| November 26 | Business case and project log appeared blank | Checked the Timeline and Git history | Used Git restore commands to recover both documents |
 # What a real version would need
-
+| Feature we faked or skipped | Why a real company would need it | How hard / expensive? |
+|---|---|---|
+| Customer accounts | Buyers and sellers need accounts to manage their profiles and equipment listings. | Medium cost because we could use a SaaS login service. |
+| Real database | To store equipment listings, prices and customer information so users can access them at any time. | Medium cost because SportSwap could use a PaaS database service. |
+| Payment processing | To allow customers to safely purchase equipment and allow SportSwap to collect its 5% transaction fee. | Medium cost because a third-party payment provider would charge transaction fees. |
+| Data security | To protect customers' personal information and prevent unauthorized access to their accounts. | High cost due to ongoing security monitoring, encryption and maintenance. |
+| Content moderation | To remove scams, misleading listings and unsafe sports equipment. | High cost because SportSwap would need monitoring tools and staff to review reported listings. | 
+| Customer support | To help customers with complaints, refunds, technical issues and disputes between buyers and sellers. | Medium to high cost because SportSwap would need customer support staff. | 
 # Reflection
